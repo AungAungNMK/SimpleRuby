@@ -1,0 +1,24 @@
+ #current_user.id = @project.
+    #current_user.id = @project.user_id 
+
+    #@projects = Project.find(params[:id])
+    #redirect_to root_path, notice: 'This shoud not allow that:(' unless current_user.id = @project.user_id 
+      
+    #end
+
+
+#respond_to do |format|
+      #if current_user.id = @projects.user_id 
+        #format.html { render :show }
+        #format.json { render :show, status: :created, location: @project }
+      #else
+       # format.html { redirect_to new_user_session_path }
+        #format.json { render json: @project.errors, status: :unprocessable_entity }
+     # end
+    #end
+
+    #if current_user.id = @project.user_id
+    #  render :show
+    #else
+    #  redirect_to root_path, notice: "You can't access this"
+    #end
